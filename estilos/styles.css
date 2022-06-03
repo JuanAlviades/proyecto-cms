@@ -1,9 +1,25 @@
-html {
+body {
     padding: 0;
     margin: 0;
 }
 
+li {
+    font-size: 14px;
+}
+
+input {
+    width: 276px;
+    list-style: none;
+    margin-bottom: 16px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bbbbbb;
+    height: 25px;
+}
+
 .header {
+    height: 108px;
     padding-top: 20px;
     display: flex;
     justify-content: space-around;
@@ -11,13 +27,82 @@ html {
 }
 
 #imagen_header {
-    padding-right: 19px;
+    width: 231px;
+    height: 59px;
 }
 
 #numero_tel {
+    font-size: 20px;
     padding-right: 80px;
+    color: lightslategray;
+    padding-top: 20px;
+}
+
+.numero_header {
+    color: rgb(48, 179, 78);
+}
+
+.contenedor {
+    background-image: url(https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 547px;
+    filter: grayscale(0.4);
+}
+
+.main {
+    margin-top: 50px;
 }
 
 .formulario {
+    color: white;
+    background-color: rgb(16, 37, 66);
+    padding: 50px;
+}
+
+.formulario li {
+    width: 276px;
     list-style: none;
+}
+
+.titulo_formulario {
+    display: flex;
+    flex-direction: column;
+    color: #da9537;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+
+.titulo {
+    margin-bottom: 10px;
+}
+
+.sub-titulo {
+    font-size: 28px;
+}
+
+.titulo_formulario h1 {
+    display: flex;
+    flex-direction: column;
+    color: rgb(218, 149, 55);
+}
+
+.boton {
+    padding: 20px 0px 10px 85px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    margin-top: 40px;
+    background-color: darkorange;
+    width: 285px;
+    border-radius: 10px;
+    height: 60px;
+    color: white;
+}
+
+.boton:hover {
+    background-color: #F7941d;
 }
